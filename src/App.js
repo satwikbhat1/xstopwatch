@@ -32,7 +32,7 @@ const App = () => {
   return (
     <div className="stopwatch">
       <h1>Stopwatch</h1>
-      <div className="time-display">{formatTime()}</div>
+      <div className="time-display">Time: {formatTime()}</div>
       <div className="controls">
         <button onClick={handleStartStop}>
           {isRunning ? "Stop" : "Start"}
